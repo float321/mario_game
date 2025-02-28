@@ -2,6 +2,8 @@ import pygame
 import os
 import sys
 
+
+print('Введите путь до файла с картой (один раз)')
 for i in sys.stdin:
     filename_player = str(i).strip()
     fullnamee = os.path.join(filename_player)
